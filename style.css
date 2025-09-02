@@ -1,0 +1,11 @@
+body {
+  overflow: hidden; /* Disable normal scrolling */
+}
+
+section {
+  display: none; /* Hide all sections by default */
+}
+
+section.active {
+  display: flex; /* Show active section */
+}

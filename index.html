@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- External CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Header -->
+  <header class="bg-gray-800 p-5 fixed w-full z-10 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Portfolio</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#home" class="hover:text-blue-400 nav-link">Home</a></li>
+          <li><a href="#about" class="hover:text-blue-400 nav-link">About</a></li>
+          <li><a href="#skills" class="hover:text-blue-400 nav-link">Skills</a></li>
+          <li><a href="#projects" class="hover:text-blue-400 nav-link">Projects</a></li>
+          <li><a href="#contact" class="hover:text-blue-400 nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="container mx-auto px-5 min-h-screen flex flex-col items-center justify-center text-center active">
+    <img src="roshan.jpg" alt="Abhiram Reddy" class="w-40 h-40 rounded-full border-4 border-blue-400 shadow-lg mb-6">
+    <h2 class="text-5xl font-bold mb-3">Thimmapuram Abhiram Reddy</h2>
+    <p class="text-lg text-gray-300 max-w-xl">Aspiring Computer Science Engineer | Web Developer | Tech Enthusiast</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container mx-auto px-5 min-h-screen flex flex-col justify-center">
+    <h2 class="text-4xl font-bold mb-6">About Me</h2>
+    <p class="text-lg text-gray-300 max-w-3xl">
+      I am Thimmapuram Abhiram Reddy, a passionate Computer Science student with a love for building creative and impactful projects.
+      I specialize in web development, data structures, and algorithms, and I am always eager to learn new technologies.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="container mx-auto px-5 min-h-screen flex flex-col justify-center">
+    <h2 class="text-4xl font-bold mb-6">Skills</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
+      <div class="bg-orange-500 text-white p-6 rounded-lg shadow-lg text-center w-48 h-48 flex flex-col justify-center items-center">
+        <h3 class="text-xl font-semibold mb-2">HTML & CSS</h3>
+        <span class="text-2xl font-bold">90%</span>
+      </div>
+      <div class="bg-yellow-400 text-black p-6 rounded-lg shadow-lg text-center w-48 h-48 flex flex-col justify-center items-center">
+        <h3 class="text-xl font-semibold mb-2">JavaScript</h3>
+        <span class="text-2xl font-bold">60%</span>
+      </div>
+      <div class="bg-blue-400 text-white p-6 rounded-lg shadow-lg text-center w-48 h-48 flex flex-col justify-center items-center">
+        <h3 class="text-xl font-semibold mb-2">Python</h3>
+        <span class="text-2xl font-bold">85%</span>
+      </div>
+      <div class="bg-red-400 text-white p-6 rounded-lg shadow-lg text-center w-48 h-48 flex flex-col justify-center items-center">
+        <h3 class="text-xl font-semibold mb-2">Java</h3>
+        <span class="text-2xl font-bold">60%</span>
+      </div>
+      <div class="bg-cyan-400 text-black p-6 rounded-lg shadow-lg text-center w-48 h-48 flex flex-col justify-center items-center">
+        <h3 class="text-xl font-semibold mb-2">React.js</h3>
+        <span class="text-2xl font-bold">65%</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container mx-auto px-5 min-h-screen flex flex-col justify-center">
+    <h2 class="text-4xl font-bold mb-6">Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+        <p class="text-gray-300">Description of your first project.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+        <p class="text-gray-300">Description of your second project.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mx-auto px-5 min-h-screen flex flex-col justify-center">
+    <h2 class="text-4xl font-bold mb-6">Contact</h2>
+    <div class="space-y-4">
+      <div class="flex items-center space-x-3">
+        <span class="text-white text-xl">📧</span>
+        <a href="mailto:abhiramreddy.ngnr@gmail.com" class="text-blue-400 hover:underline">abhiramreddy.ngnr@gmail.com</a>
+      </div>
+      <div class="flex items-center space-x-3">
+        <span class="text-white text-xl">📍</span>
+        <span class="text-blue-100">Hyderabad, India</span>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
